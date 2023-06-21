@@ -4,13 +4,13 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialIcons } from '@expo/vector-icons';
 
-import { createStackNavigator } from '@react-navigation/stack';
-
 import Home from './pages/Home';
 import Busca from './pages/Busca';
 import Perfil from './pages/Perfil';
 import Pedidos from './pages/Pedidos';
 import Pagamentos from './pages/Pagamentos';
+
+import { createStackNavigator } from '@react-navigation/stack';
 
 const PerfilStack = createStackNavigator();
 
@@ -22,7 +22,6 @@ function PerfilRoutes() {
     </PerfilStack.Navigator>
   );
 } 
-
 
 const BottomTab = createBottomTabNavigator();
 

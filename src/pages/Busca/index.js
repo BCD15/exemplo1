@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, styleSheet } from "react-native-web";
+import { View, Text, StyleSheet } from "react-native";
 
 export default function Busca() {
     return (
